@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Montserrat|Roboto">
+
+
+<head>
+  <!-- Other head content -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<ion-content fullscreen>
+  <div class="container">
+    <div class="top-part">
+      <img src="../../assets/icon/splash_icon.png ">
+    </div>
+
+    <div class="bottom-part">
+      <ion-card-content>
+        <form>
+          <form class="all-input">
+             
+          <div class="input-wrapper">
+            <ion-icon name="person-outline" class="input-icon"></ion-icon>
+            <input type="text" placeholder="Username" class="custom-input" />
+          </div>
+          
+          <div class="input-wrapper">
+            <ion-icon name="key-outline" class="input-icon"></ion-icon>
+            <input type="password" placeholder="Password" class="custom-input" />
+          </div>
+            <div id="Password">
+              <a (click)="navigateToForgetPassword()">Forgot Password?</a>
+             </div>
+          </form>
+        </form>
+        <ion-button (click)="navigateToHomePage()" expand="block" class="ion-margin-top" type="submit">
+              Sign In
+            </ion-button>
+            <div class="register">
+              <a (click)="navigateToRegister()" id="Register">Register Now</a>
+            </div>
+           
+  
+        
+      </ion-card-content>
+    </div>
+    </div>
+</ion-content>

@@ -1,0 +1,745 @@
+.fullscreen {
+  background-color: #eeedff;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(to right, #3858ef, #3858ef, #5d5cec, #805fea, #a163e9);
+  display: flex;
+  align-items: center;
+}
+
+nav i {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.all-content {
+  width: 100%;
+  padding: 10px;
+}
+
+.contenar {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  width: 50%;
+  padding: 15px 0;
+}
+
+.text h1 {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 112.99999999999999%;
+  letter-spacing: 0%;
+  margin: 0;
+  color: #333;
+}
+
+.text p {
+  color: #666;
+  margin: 4px 0 0;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 112.99999999999999%;
+  letter-spacing: 0%;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row; /* Buttons side by side */
+  gap: 10px;
+  padding: 0 5%;
+  background-color: #eeedff;
+  justify-content: space-between;
+}
+
+.my-buttons {
+  background: linear-gradient(to right, #3858ef, #3858ef, #5d5cec, #805fea, #a163e9);
+  padding: 12px;
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  width: 48%;
+}
+.course-cards-details {
+  padding: 20px 15px;
+  width: 100%;
+}
+
+
+
+ion-card {
+  text-align: center;
+  margin-bottom: 16px;
+  height: 120px; /* Fixed height for all cards */
+  display: flex; /* Ensure content fits within the fixed height */
+  align-items: center;
+  justify-content: center;
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+   background-color: white !important;
+}
+
+.custom-accordion-header {
+  --background: white;         /* or any custom color or gradient */
+  --color: black;              /* text color */
+  border-radius: 8px;          /* optional */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* optional */
+}
+
+ .course-cards {
+      padding: 16px;
+      background: linear-gradient(to right, #3858ef, #a163e9);
+      border-radius: 10px;
+    }
+
+     .fees-tex {
+      font-family: 'Plus Jakarta Sans';
+          margin-top: 44px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 10%;
+      color: #000000;
+    }
+
+    .course-cards ion-grid {
+      text-align: center;
+    }
+
+    .course-cards ion-icon {
+      font-size: 20px;
+      color: #eeedff;
+    }
+
+    .accordion-head{
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 26px;
+      letter-spacing: 6%;
+      color: #404040 !important; 
+      background-color: white !important;
+    }
+
+    .accordion-line{
+       color: #747474;
+  margin: 4px 0 0;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 4%;
+    }
+    
+
+    .course-cards p {
+      font-family: 'Inter', sans-serif;
+          font-size: 10px;
+      color: white;
+      margin: 4px 0;
+    }
+
+    .course-details {
+      padding: 16px;
+    }
+
+    .course-details ion-card {
+      text-align: center;
+      margin-bottom: 16px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-details ion-card-content {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .course-details ion-card-content p {
+      margin: 4px 0;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
+    }
+
+    .course-details ion-icon {
+      font-size: 2rem;
+      color: #3858ef;
+    }
+
+ion-card-content {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure content takes full height of the card */
+}
+
+ion-card-content p {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 100%; 
+}
+
+.fess-desc{
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-top: 7px;
+}
+
+ion-icon {
+  color: #3858ef;
+}
+.fees-des-icon{
+  width: 48px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+/* Course Highlights Section */
+.highlights-section {
+  background: linear-gradient(to right, #3858ef, #a163e9);
+  color: white;
+  width: 100vw;
+    margin-left: -10px;
+    padding: 0 20px;
+        margin-top: 54px;
+}
+
+.highlights-section h2 {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.highlight-item {
+  text-align: center;
+}
+
+.highlight-item h3 {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+ letter-spacing: 10%;
+  margin: 0;
+}
+
+.highlight-item p {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 8%;
+
+}
+
+/* Student Success Stories Section */
+.stories-section {
+  height: 201px;
+  width: 393px;
+  background-color: #393185;
+  padding: 5%;
+}
+
+.stories-section h2 {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.stories-section p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.youtube-button {
+  background-color: #fcfbfb;
+  color: rgb(10, 10, 10);
+  padding: 10px 48px;
+  border-radius: 5px;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 4%;
+}
+//swiper student youtube review
+/* Customize Swiper container with gradient background */
+.student-review-swiper {
+  --swiper-pagination-color: #ffffff; /* Active bullet color (white as requested) */
+  --swiper-pagination-bullet-inactive-color: #d3d3d3; /* Inactive bullet color */
+  --swiper-pagination-bullet-inactive-opacity: 0.5; /* Inactive bullet opacity */
+  --swiper-pagination-bullet-size: 8px; /* Bullet size */
+  --swiper-pagination-bullet-horizontal-gap: 6px; /* Spacing between bullets */
+  background: linear-gradient(135deg, #4b6cb7, #393185); /* Gradient background matching the image */
+   min-height: 300px; /* Ensure enough height for content */
+  margin-left: -10px;
+}
+
+/* Style the slides */
+swiper-slide {
+  color: #ffffff; /* White text for all content in the slide */
+}
+
+/* Container for the 50/50 split */
+.swiper-contenar {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.swiper-text {
+ width: 84vw; 
+  padding: 15px 0;
+}
+
+.swiper-text .student-name {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26%;
+  letter-spacing: 10%;
+  margin: 0;
+  color: #FFFFFF;
+  margin-top: 21px;
+}
+
+ .swiper-text .testimonial-text {
+  color: #C2C2C2;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 8px;
+  margin-top: 10px;
+  // line-height: 12%;
+  // letter-spacing: 4%;
+}
+
+.swiper-iamge{
+  width: 100%;
+  height: 144px;
+}
+
+.swiper-image img{
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 15vh;
+
+}
+
+.star-rating{
+  color: goldenrod;
+}
+
+//Program Advantages
+.advantages-section{
+  width: 100%;
+  height: 145px;
+  top:375px;
+}
+
+.course{
+  width: 99px;
+     height: 121px;
+  left: 819px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.course img{
+   height: 52px;
+   width: 52px;
+   margin-top: 13px;
+   margin-left: 24px;
+}
+
+.first{
+   background: linear-gradient(to bottom, #3D57BB, #2490EE);
+}
+
+.second{
+   background: linear-gradient(to bottom, #FE6274, #FFA758);
+}
+
+.course .text{
+  width: 87px;
+  height: 24px;
+  margin-left:5px;
+}
+
+.course .text p{
+  font-family: 'Plus Jakarta Sans';
+  width: 500;
+  font-size: 8px;
+  line-height: 11px;
+  letter-spacing: 6%;
+  vertical-align: middle;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.course-card {
+width: 200px;
+height: 244px;
+background: #ffffff;
+border-radius: 10px;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+// margin-left: 25px;
+}
+
+//review section
+.review{
+          min-height: 50%;
+}
+
+.review-section{
+  padding: 20px;
+  p{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 4%;
+    color: #C2C2C2;
+  }
+  img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .review-person{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .person-name{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+  }
+}
+
+//experts section
+
+.experts{
+   width: 99px;
+     height: 121px;
+  left: 819px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.experts img{
+   border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+}
+
+//expolre courses
+.courses-section {
+  width: 100%;
+  padding: 15px;
+  margin-top: 35px;
+
+  .section-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+font-size: 16px;
+}
+
+.section-header h2 {
+font-size: 16px;
+margin: 0;
+color: #000000;
+}
+
+.section-header a {
+font-size: 12px;
+color: black;
+text-decoration: none;
+font-size: 16px;
+}
+
+  .course-card {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+
+    .courses-head {
+      position: relative;
+      img {
+        width: 100%;
+           height: 155px;
+        object-fit: cover;
+      }
+      .text-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .card-content {
+      padding: 10px;
+      h3 {
+        font-size: 14px;
+        margin: 0 0 8px;
+      }
+      .review {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 8px;
+        .review-star i {
+          color: #f5c518;
+          font-size: 12px;
+        }
+        p {
+          margin: 0;
+          font-size: 12px;
+        }
+      }
+      .text-content {
+        p {
+          margin: 4px 0;
+          font-size: 12px;
+          font-size: 'Plus Jakarta Sans';
+          font-weight: 500;
+          font-size: 9px;
+          line-height: 11px;
+          color: #5E5E5E;
+        }
+      }
+      .line {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin-left: -10px;
+      }
+      .inner-card-content{
+        height: 100%;
+        width: 90%;
+        margin: 0 5%;
+        columns: #000000;
+      }
+
+      .inner-card-content  h3{
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 11px;
+        letter-spacing: 0%;
+        color: #000000;
+      }
+      
+      .duration {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 8px;
+        .info {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 12px;
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 600;
+          font-size: 8px;
+          line-height: 14px;
+          color: #414141;
+        }
+      }
+       .buttons-home {
+          display: flex;
+        gap: 8px;
+        button {
+          padding: 6px 12px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: 700;
+          font-size: 10px;
+          padding: 10px 10px 15px 20px;
+          line-height: 100%;
+          color: #FFFFFF;
+          font-family: 'Plus Jakarta Sans';
+      }
+        .details {
+          --background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+        }
+        .enroll {
+          --background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+          color: #fff;
+        }
+       }
+    }
+  }
+}
+
+.buttons-home {
+display: flex;
+gap: 4px;
+margin-top: 6px;
+}
+
+.details, .enroll {
+flex: 1;
+background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+color: #fff;
+border: none;
+border-radius: 6px;
+// padding: 8px;
+font-size: 10px;
+cursor: pointer;
+transition: 0.3s;
+font-family: 'Plus Jakarta Sans';
+}
+
+.details:hover, .enroll:hover {
+opacity: 0.8;
+}
+
+
+@media (min-width: 320px) {
+  .fullscreen{
+    height: 3000px;
+  }
+  .text {
+    padding: 0;
+  }
+
+  .text h1 {
+    font-size: 12px;
+  }
+
+  .text p {
+    font-size: 10px;
+  }
+  .course-cards p{
+    font-size: 8.6px;
+  }
+
+  .image img {
+    height: 116px;
+  }
+  .course-cards-details{
+    padding: 0;
+  }
+  .swiper-contenar{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .swiper-image{
+    width: 100%;
+  }
+
+  
+    .swiper-image img{
+        width: 100%;
+        height: 35%;
+        width: 100%;
+    }
+    
+  .swiper-text{
+    width: 100%;
+    padding: 15px 0;
+}
+.swiper-text .testimonial-text{
+    font-size: 8px;
+    margin-top: 11px;
+}
+.youtube-button{
+  padding: 10px 37%;
+  font-size: 12px;
+  gap: 10px;
+}
+}
+
+@media (min-width:425px) {
+    .youtube-button{
+        padding: 10px 40%;
+    }
+  
+    .courses-section .course-card .courses-head img{
+    height: 214px;
+}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .contenar {
+    padding: 10px 20px;
+  }
+  .image img {
+        height: 180px;
+    }
+
+  .button-section {
+    padding: 0 16px;
+  }
+  .text h1{
+    font-size:26px;
+  }
+  .text p{
+    font-size:19px;
+  }
+}

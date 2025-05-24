@@ -1,0 +1,824 @@
+.fullscreen{
+  background-color: #eeedff;
+  height: 1600px;
+}
+
+.hero-section {
+width: 100vw;
+ height: 300.22px;
+background: url('../../assets/images/Home.png') no-repeat center center;
+// background-size: cover;
+position: relative;
+color: white;
+}
+
+
+.header-icons {
+  height: 30px;
+  width: 90%;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  color:white
+}
+
+.header-icons i{
+  color: white;
+  font-size: 30px;
+}
+
+.header-top-text{
+  position: absolute;
+  top: 40%;
+  width: 60%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.header-top-text h2{
+  font-size: 18px;
+  font-family: 'Playpen Sans';
+}
+
+.center-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-images {
+  position:absolute;
+  margin-top: -60px;
+}
+
+.hero-images img {
+  height: 190px;
+  width: 370px;
+  margin-left: 85px ;
+}
+.explore-category{
+  width: 100%;
+  height: 145px;
+  top:375px;
+  margin-left: 20px;
+  // background-color: red;
+}
+.explore-category h2{
+  font-family: 'Plus Jakarta Sans';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 10%;
+  color: black;
+}
+
+.courses{
+  display: flex;
+  gap: 20px;
+  width: 918px;
+  height: 109px;
+  border:1px;
+  background-color: #333;
+}
+.course{
+  width: 99px;
+height: 123px;
+  left: 819px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.course img{
+   height: 52px;
+   width: 52px;
+   margin-top: 13px;
+   margin-left: 24px;
+}
+
+.course .text{
+  width: 87px;
+  height: 24px;
+  margin-left:5px;
+}
+
+.course .text p{
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 10%;
+  vertical-align: middle;
+  text-align: center;
+  color: #000000;
+
+}
+
+.courses-section {
+width: 95%;
+padding: 15px;
+font-family: 'Plus Jakarta Sans', sans-serif;
+// margin-top: 20px;
+}
+
+.section-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+font-size: 16px;
+}
+
+.section-header h2 {
+font-family: 'Plus Jakarta Sans';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 10%;
+  color: black;
+}
+
+.section-header a {
+font-size: 12px;
+color: black;
+text-decoration: none;
+font-size: 16px;
+font-family: 'Plus Jakarta Sans';
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.courses-container {
+width: 355px;
+height: 280px;
+overflow-x: auto;
+display: flex;
+gap: 12px;
+
+}
+
+.courses-container::-webkit-scrollbar {
+display: none; /* Hide scrollbar (chrome/safari) */
+}
+
+.course-card {
+width: 200px;
+height: 244px;
+background: #ffffff;
+border-radius: 10px;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+// margin-left: 25px;
+}
+
+.courses-head {
+  
+position: relative;
+}
+
+.courses-head img {
+width: 100%;
+height: 90px;
+object-fit: cover;
+}
+
+.text-overlay {
+position: absolute;
+bottom: 35px;
+left: 6px;
+padding: 2px 6px;
+border-radius: 4px;
+}
+
+.text-overlay p {
+color: #fff;
+font-size: 10px;
+margin: 0;
+}
+
+.card-content {
+padding: 6px;
+display: flex;
+flex-direction: column;
+gap: 4px;
+}
+
+.card-content h3 {
+font-size: 12px;
+margin: 0;
+color: #333;
+font-weight: bold;
+height: 26px;
+margin-left: -4px;
+font-family: 'Plus Jakarta Sans';
+}
+
+.review {
+display: flex;
+align-items: center;
+justify-content: end;
+gap: 4px;
+// margin-left: 50px;
+}
+
+.review-star {
+font-size: 12px;
+color: gold;
+}
+
+.review p {
+font-size: 10px;
+font-weight: bold;
+margin: 0;
+font-family: 'Plus Jakarta Sans';
+}
+inner-card-content
+.text-content p {
+  // font-size: -10px;
+font-size: 12px;
+color: #666;
+margin: 0;
+font-family: 'Plus Jakarta Sans';
+}
+
+.duration {
+display: flex;
+justify-content: space-between;
+font-size: 10px;
+color: #777;
+width: 90%;
+margin: 0 5%;
+}
+
+.info {
+display: flex;
+align-items: center;
+gap: 2px;
+font-family: 'Plus Jakarta Sans';
+}
+
+.buttons-home {
+display: flex;
+gap: 4px;
+margin-top: 6px;
+}
+
+.details, .enroll {
+flex: 1;
+background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+color: #fff;
+border: none;
+border-radius: 6px;
+// padding: 8px;
+font-size: 10px;
+cursor: pointer;
+transition: 0.3s;
+font-family: 'Plus Jakarta Sans';
+}
+
+.details:hover, .enroll:hover {
+opacity: 0.8;
+}
+
+
+.robo-section {
+  width: 100vw;
+ height: 300.22px;
+background: url('../../assets/images/Home.png') no-repeat center center;
+// background-size: cover;
+position: relative;
+color: white;
+
+}
+
+
+.robo-top-text{
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: center;
+}
+
+.robo-top-text h2{
+font-size: 15px;
+margin-left: 50%;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 10%;
+color: #FFFFFF;
+font-family: 'Playpen Sans';
+}
+
+.robo-content {
+position: absolute;
+top: 40px;
+width: 100%;
+text-align: center;
+}
+.center-content h2{
+font-family: "Playpen Sans";
+font-weight: 600;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 10%;
+}
+
+
+.robo-images img {
+height: 350px;
+width: 600px;
+margin-left: 25px ;
+margin-top: -65px;
+}
+
+
+
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+.fullscreen {
+  background-color: #eeedff;
+}
+
+.section-contenar{
+  margin-top: 30px;
+}
+.hero-section {
+  width: 100vw;
+  height: 300.22px;
+  background: url('../../assets/images/Home.png') no-repeat center center;
+  position: relative;
+  color: white;
+}
+
+.header-top-text {
+  position: absolute;
+  top: 40%;
+  width: 60%;
+  text-align: center;
+}
+
+
+.center-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.hero-images {
+  position: absolute;
+  margin-top: -60px;
+}
+
+.hero-images img {
+  height: 190px;
+  width: 370px;
+  margin-left: 85px;
+}
+
+.explore-category {
+  width: 100%;
+  height: 145px;
+  top: 375px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 10%;
+}
+
+.robo-section {
+  width: 100vw;
+  height: 300.22px;
+  background: url('../../assets/images/Home.png') no-repeat center center;
+  position: relative;
+  color: white;
+}
+
+.robo-content {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.robo-images img {
+  height: 350px;
+  min-width: 500px;
+  max-width: 600px;
+  margin-left: -55px;
+ margin-left: -75px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 374px) {
+  .fullscreen{
+  height: 1700px;
+}
+  
+  .hero-section {
+    width: 100vw;
+    height: 333.22px;
+    background: url('../../assets/images/Home.png') no-repeat center center/cover;
+    position: relative;
+    color: white;
+  }
+
+  // .swiper-slide {
+  //   width: 87% !important; 
+  //   margin-right: 15px !important; 
+  // }
+
+  .hero-images img {
+    height: 190px;
+    width: 370px;
+    margin-left: 19%;
+  }
+
+  .robo-section {
+    margin-top: -60px;
+    width: 100vw;
+    height: 333.22px;
+    background: url('../../assets/images/home2.png') no-repeat center center/cover;
+    position: relative;
+    color: white;
+  }
+}
+
+swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+
+// .swiper-slide {
+//   width: 83.33% !important; 
+//   margin-right: 10px !important;
+// }
+
+
+.slider-component {
+  width: 100%;
+  overflow: visible; 
+}
+
+#my-new-courses{
+  margin-top: -5%;
+}
+
+
+.courses-section {
+  width: 100%;
+  padding: 15px;
+  margin-top: 35px;
+
+  .course-card {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-sizing: border-box;
+
+    .courses-head {
+      position: relative;
+      img {
+        width: 100%;
+          height: 180px;
+        object-fit: cover;
+      }
+      .text-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .card-content {
+      padding: 10px;
+      h3 {
+           font-size: 14px;
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 600;
+        line-height: 13px;
+        letter-spacing: 0%;
+      }
+      .review {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 8px;
+        .review-star i {
+          color: #f5c518;
+          font-size: 12px;
+        }
+        p {
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          color: #535353;
+        }
+      }
+      .text-content {
+        p {
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 500;
+          margin: 4px 0;
+          font-size: 12px;
+          color: #5E5E5E;
+          line-height: 11px;
+        }
+      }
+      .line {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin-left: -10px;
+      }
+      .inner-card-content{
+        height: 100%;
+        width: 90%;
+        margin: 0 5%;
+      }
+      .duration {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 8px;
+        .info {
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 600;
+          color: #414141;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 11px;
+        }
+      }
+       .buttons-home {
+          display: flex;
+        gap: 8px;
+        button {
+          padding: 6px 12px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: 500;
+          font-size: 12px;
+          padding: 10px 10px 15px 20px;
+          font-family: 'Plus Jakarta Sans';
+      }
+        .details {
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 700;
+          font-size: 10px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          color: #FFFFFF;
+          --background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+        }
+        .enroll {
+          --background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+           font-family: 'Plus Jakarta Sans';
+          font-weight: 700;
+          font-size: 10px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          color: #FFFFFF;
+        }
+       }
+    }
+  }
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #007bff;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007bff;
+}
+
+
+@media screen and (min-width: 321px) and (max-width:350px) {
+  .hero-images img{
+  margin-left: 20%;
+}
+
+.course-card {
+  margin-left: 25px;
+  }
+
+  .new-courses{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 809px;
+}
+.robo-section{
+  margin-top:176px;
+}
+.robo-top-text{
+  top:43%
+}
+.robo-images{
+  margin-top: -12px;
+  margin-left: -55px;
+  height: 290px;
+  max-width: 518px;
+  min-width: 518px;
+}
+
+  // .swiper-slide {
+  //   width: 87% !important; 
+  //   margin-right: 15px !important; 
+  // }
+  
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width:473px){
+  .fullscreen{
+    height: 1750px;;
+  }
+  // .swiper-slide {
+  //   width: 95.5% !important; 
+  //   margin-right: 20px !important;
+  // }
+  .courses-section .course-card .courses-head img {
+    width: 100%;
+            height: 222px;
+    object-fit: cover;
+  }
+  .header-top-text{
+    margin-top: 20px;
+  }
+  .hero-section {
+    width: 100vw;
+    height: 251.22px;
+    // background: url('../../assets/images/Home.png') no-repeat center center/cover;
+    position: relative;
+    color: white;
+  }
+
+  .hero-images img {
+    height: 190px;
+    width: 370px;
+   margin-left: 23%;
+     margin-top: 20px;
+  }
+
+  .robo-section {
+    margin-top: -60px;
+    width: 100vw;
+    height: 333.22px;
+    background: url('../../assets/images/home2.png') no-repeat center center/cover;
+    position: relative;
+    color: white;
+  }
+  .robo-images img {
+     height: 350px;
+     width: 900px;
+    // margin-left: 25px ;
+    margin-top: -65px;
+    }
+    
+}
+
+@media screen and (min-width: 473px) and (max-width:585px){
+  // .swiper-slide {
+  //   width: 48% !important; 
+  //   margin-right: 15px !important; 
+  // }
+  .hero-images img{
+    margin-left: 30vw;
+  }
+}
+
+@media screen and (min-width: 585px) and (max-width:768px){
+  // .swiper-slide {
+  //   width: 40% !important;
+  //   margin-right: 15px !important;
+  // }
+
+  .hero-images img{
+    margin-left: 30vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .fullscreen {
+    height: 1600px;
+  }
+  // .swiper-slide {
+  //   width: auto; /* Let Swiper handle width */
+  //   margin-right: 0; /* Let Swiper handle spacing */
+  // }
+  .course-card {
+    max-width: 300px; /* Adjust for larger screens */
+  }
+  .hero-section, .robo-section {
+    width: 100vw;
+    height: 220.22px;
+    background: linear-gradient(to right, #3858ef, #3858ef, #5d5cec, #805fea, #a163e9);
+    position: relative;
+    color: white;
+  }
+  .robo-images img {
+    height: 350px;
+    width: 900px;
+    margin-top: -135px;
+  }
+  .robo-top-text {
+    width: 40%;
+    margin: -10% 40%;
+  }
+  #section-header-id {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 820px) {
+  // .swiper-slide {
+  //   width: 28.33% !important; 
+  //   margin-right: 25px !important; 
+  // }
+
+  .hero-images img{
+    margin-left: 50vw;
+  }
+
+  .hero-section {
+    width: 100vw;
+    //  height: 300.22px;
+     background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+    position: relative;
+    color: white;
+    }
+    .robo-section {
+      width: 100vw;
+             height: 18.22vh;
+      background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+      position: relative;
+      color: white;
+      }
+}
+
+@media (min-width: 1024px) {
+   .fullscreen{
+  height: 1600px;
+}
+  // .swiper-slide {
+  //   width: 23.33% !important; 
+  //   margin-right: 25px !important; 
+  // }
+
+  .hero-images img{
+    margin-left: 50vw;
+    margin-top:33px
+  }
+
+  .hero-section {
+    width: 100vw;
+     height: 270.22px;
+     background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+    position: relative;
+    color: white;
+    }
+    .robo-section {
+      width: 100vw;
+       height: 210.22px;
+      background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+      position: relative;
+      color: white;
+      }
+      .robo-section h2{
+        margin-top: 49px;
+      }
+}
+
+/* Hide on mobile */
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}

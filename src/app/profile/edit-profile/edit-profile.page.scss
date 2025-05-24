@@ -1,0 +1,108 @@
+.fullscreen {
+    height: 100%;
+    width: 100%;
+    background-color: #eeedff;
+  }
+  
+  .head-section {
+    height: 130px;
+    background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+  }
+  
+  .header-icons {
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+  }
+  
+  .header-icons h6 {
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    margin: 0;
+    line-height: 100%;
+    letter-spacing: 10%;
+    font-weight: 600;
+  }
+  
+  .user {
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user i {
+    font-size: 30px;
+    color: #3d33ab;
+  }
+  
+  .user-top{
+    height: 70vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-details {
+    width: 70%;
+    height: auto;
+    top: 274px;
+    left: 27px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+  }
+  
+
+  #icon {
+    color: #393185;
+  }
+  .header-icons i{
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500; 
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 10%;
+  }
+
+
+  .ion-margin-top{
+    padding: 10px 28%;
+    background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+  }

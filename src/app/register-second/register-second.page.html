@@ -1,0 +1,38 @@
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playpen Sans|Plus Jakarta Sans|Inter">
+<ion-content fullscreen>
+  <div class="container">
+    <div class="top-part">
+      <i (click)="  navigateSignIn()" class="ri-arrow-left-s-line" id="back-icon"></i>
+      <div class="signup-head">
+        <div class="text-area">
+        <h1 class="signup-title">SIGN UP</h1>
+        <p class="signup-subtitle">New user? Create an account</p>
+      </div>
+      <div class="stepper">
+        <div class="step step-active">1</div>
+        <div class="line"></div>
+        <div class="step step-active">2</div>
+      </div>
+      </div>
+    </div>
+
+    <div class="bottom-part">
+      <ion-card-content>
+        <form>
+          <div class="contenar"></div>
+          <input type="text" placeholder="Username" class="my-new-button">
+          <input type="text" placeholder="Password" class="my-new-button">
+          <input type="text" placeholder="Confirm Password" class="my-new-button">
+         
+          <ion-button (click)="navigateSignIn()" expand="block" class="ion-margin-top" type="submit" >
+            SIGN UP
+          </ion-button>
+        </form>
+      </ion-card-content>
+    </div>
+  </div>
+</ion-content>

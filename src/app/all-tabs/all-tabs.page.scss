@@ -1,0 +1,29 @@
+ion-tab-bar.bottom-nav {
+  background-color: #3d33ab;
+  height: 80px;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-sizing: border-box;
+  transition: none !important;
+  will-change: transform;
+}
+
+
+ion-tab-button {
+  flex-grow: 1;
+  position: relative;
+}
+
+ion-tab-button.tab-selected::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+}

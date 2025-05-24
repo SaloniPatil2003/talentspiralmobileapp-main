@@ -1,0 +1,40 @@
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playpen Sans|Plus Jakarta Sans|Inter">
+<ion-content fullscreen>
+<ion-content fullscreen>
+  <div class="container">
+    <div class="top-part">
+      <i (click)="navigateToSignIn()" class="ri-arrow-left-s-line" id="back-icon"></i>
+      <div class="signup-head">
+        <div class="text-area">
+        <h1 class="signup-title">SIGN UP</h1>
+        <p class="signup-subtitle">New user? Create an account</p>
+      </div>
+      <div class="stepper">
+        <div class="step step-active">1</div>
+        <div class="line"></div>
+        <div class="step">2</div>
+      </div>
+      </div>
+    </div>
+
+    <div class="bottom-part" name="viewport" content="viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <ion-card-content>
+        <form>
+          <div class="contenar"></div>
+          <input type="text" placeholder="Name" class="my-new-button">
+          <input type="text" placeholder="Phone no" class="my-new-button">
+          <input type="text" placeholder="E-mail Address" class="my-new-button">
+         
+          <ion-button expand="block" class="ion-margin-top" type="submit" routerLink="register-second">
+            CONTINUE <i class="ri-arrow-right-s-line"></i>
+          </ion-button>
+          <a (click)="navigateToSignIn()">Sign in</a>
+        </form>
+      </ion-card-content>
+    </div>
+  </div>
+</ion-content>

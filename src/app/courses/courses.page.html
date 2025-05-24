@@ -1,0 +1,1149 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playpen Sans|Plus Jakarta Sans">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+<!-- courses -->
+
+<div class="ion-page" id="main-content">
+  <ion-content fullscreen>
+    <div class="fullscreen">
+    <ion-header class="head-section">
+     <div class="header-icons">
+       <ion-buttons slot="start">
+         <ion-menu-button class="icon">
+          <i class="ri-menu-line"></i>
+         </ion-menu-button>
+       </ion-buttons>  
+       <i (click)=" navigationTONotification()" class="ri-notification-4-fill"></i>
+     </div>
+   </ion-header>
+   <div class="all-courses">
+     <p class="expolre-heading">Explore  All  Courses</p>
+    
+ <div class="section-contenar">
+      <div class="courses-section">
+  <div class="section-header">
+    <h2>Top Popular Courses</h2>
+  </div>
+  <div class="slider-component">
+    <swiper-container
+   [slidesPerView]="1"
+        [spaceBetween]="10"
+        [loop]="true"
+        [modules]="swiperModules"
+        [breakpoints]="{
+          '425':{
+              slidesPerView: 1.4
+          },
+          '768': {
+            slidesPerView: 3
+          }
+        }"
+        class="mySwiper"
+    >
+      <swiper-slide class="swiper-slide"> 
+        <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/1.webp" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+            <div class="inner-card">
+              <h3>Certification Course in (HR)</h3>
+              <div class="review">
+                <div class="review-star">
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                </div>
+                <p>4.9 / 5.0</p>
+              </div>
+              <div class="text-content">
+                <p>18+ AI Tools & Resources</p>
+                <p>100% Job placement Assistance</p>
+              </div></div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details" (click)=" navigateToCourseDetails()">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
+          <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/2.webp" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+            <div class="inner-card">
+              <h3>Digital Marketing Certification Course</h3>
+              <div class="review">
+                <div class="review-star">
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                </div>
+                <p>4.9 / 5.0</p>
+              </div>
+              <div class="text-content">
+                <p>25+ AI Tools & Resources</p>
+                <p>100% Job placement Assistance</p>
+              </div>
+            </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 120+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 6 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details" (click)="navigateToCourseDetails()">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</div>
+    </div>
+
+<div class="section-contenar">
+  <div class="courses-section">
+  <div class="section-header">
+    <h2>IT Courses</h2>
+  </div>
+  <div class="slider-component">
+    <swiper-container
+    [slidesPerView]="1"
+        [spaceBetween]="10"
+        [loop]="true"
+        [modules]="swiperModules"
+         [breakpoints]="{
+          '425':{
+              slidesPerView: 1.4
+          },
+          '768': {
+            slidesPerView: 3
+          }
+        }"
+        class="mySwiper"
+    >
+      <swiper-slide class="swiper-slide"> 
+         <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/4.webp" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+            <div class="inner-card">
+              <h3>Data Science Certification Course</h3>
+              <div class="review">
+                <div class="review-star">
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                </div>
+                <p>4.7 / 5.0</p>
+              </div>
+              <div class="text-content">
+                <p>13+ AI Tools & Resources</p>
+                <p>100% Job placement Assistance</p>
+              </div>
+            </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
+           <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/DA.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Data Analytics Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>4.7 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>13+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide"> 
+        <div class="course-card" id="addition">
+             <div class="courses-head">
+               <img src="../../assets/images/home_page_images/3.webp" alt="Certification Course in HR">
+               <div class="text-overlay">
+               </div>
+             </div>
+       
+             <div class="card-content">
+               <div class="inner-card">
+                <h3>Software Testing Certification Course</h3>
+               <div class="review">
+                 <div class="review-star">
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                 </div>
+                 <p>4.9 / 5.0</p>
+               </div>
+               <div class="text-content">
+                 <p>16+ AI Tools & Resources</p>
+                 <p>100% Job placement Assistance</p>
+               </div>
+               </div>
+               <hr class="line">
+               <div class="duration">
+                 <div class="info">
+                   <i class="ri-time-line"></i> 80+ Hours
+                 </div>
+                 <div class="info">
+                   <i class="ri-calendar-line"></i> 3 months
+                 </div>
+               </div>
+               <div class="buttons-course">
+                 <button class="details">DETAILS</button>
+                 <button class="enroll">ENROLL</button>
+               </div>
+             </div>
+           </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
+        <div class="course-card add" id="addition">
+             <div class="courses-head">
+               <img src="../../assets/images/home_page_images/5.webp" alt="Certification Course in HR">
+               <div class="text-overlay">
+               </div>
+             </div>
+       
+             <div class="card-content">
+               <div class="inner-card">
+                <h3>Full Stack Web Development Certification Course</h3>
+               <div class="review">
+                 <div class="review-star">
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                 </div>
+                 <p>4.8 / 5.0</p>
+               </div>
+               <div class="text-content">
+                 <p>8+ AI Tools & Resources</p>
+                 <p>100% Job placement Assistance</p>
+               </div>
+               </div>
+               <hr class="line">
+               <div class="duration">
+                 <div class="info">
+                   <i class="ri-time-line"></i> 80+ Hours
+                 </div>
+                 <div class="info">
+                   <i class="ri-calendar-line"></i> 3 months
+                 </div>
+               </div>
+               <div class="buttons-course">
+                 <button class="details">DETAILS</button>
+                 <button class="enroll">ENROLL</button>
+               </div>
+             </div>
+           </div> 
+      </swiper-slide>
+       <swiper-slide class="swiper-slide">
+         <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/6.webp" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Cloud Computing Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>16+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> 
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
+          <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/7.webp" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Artificial Intelligence(AI) Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>4.9 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>19+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> 
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</div>
+    </div>
+
+     <div class="section-contenar">
+      <div class="courses-section">
+  <div class="section-header">
+    <h2>Drone Pilot Training Courses</h2>
+  </div>
+  <div class="slider-component">
+    <swiper-container
+    [slidesPerView]="1"
+        [spaceBetween]="10"
+        [loop]="true"
+        [modules]="swiperModules"
+         [breakpoints]="{
+          '425':{
+              slidesPerView: 1.3
+          },
+          '768': {
+            slidesPerView: 3
+          }
+        }"
+        class="mySwiper"
+    >
+      <swiper-slide class="swiper-slide"> 
+        <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/DR1.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Advanced DGCA Drone Pilot Training Program</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>5+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 40+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 7 Days
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
+           <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/DR2.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Drone Training Beginner Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>5+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 40 Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 5 Days
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</div>
+    </div>
+
+     <div class="section-contenar">
+      <div class="courses-section">
+  <div class="section-header">
+    <h2>Other Courses</h2>
+  </div>
+  <div class="slider-component">
+    <swiper-container
+    [slidesPerView]="1"
+        [spaceBetween]="10"
+        [loop]="true"
+        [modules]="swiperModules"
+         [breakpoints]="{
+          '425':{
+              slidesPerView: 1.3
+          },
+          '768': {
+            slidesPerView: 3
+          }
+        }"
+        class="mySwiper"
+    >
+      <swiper-slide class="swiper-slide"> 
+    <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/v2.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Video Editing Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>6+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
+            <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/home_page_images/i1.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Influencer Mastery Course: From Zero to Influencer</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>6+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 40 Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      </swiper-slide>
+
+    </swiper-container>
+  </div>
+</div>
+    </div>
+
+     
+
+      <!-- <div class="courses-section">
+       <div class="courses-container"> -->
+         <!-- Card 1 -->
+         <!-- <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/courses1.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+            <div class="inner-card">
+              <h3>Certification Course in (HR)</h3>
+              <div class="review">
+                <div class="review-star">
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                </div>
+                <p>4.9 / 5.0</p>
+              </div>
+              <div class="text-content">
+                <p>18+ AI Tools & Resources</p>
+                <p>100% Job placement Assistance</p>
+              </div></div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details" (click)=" navigateToCourseDetails()">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+     
+         <!-- Card 2 -->
+         <!-- <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/courses2.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+            <div class="inner-card">
+              <h3>Digital Marketing Certification Course</h3>
+              <div class="review">
+                <div class="review-star">
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                </div>
+                <p>4.9 / 5.0</p>
+              </div>
+              <div class="text-content">
+                <p>25+ AI Tools & Resources</p>
+                <p>100% Job placement Assistance</p>
+              </div>
+            </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 120+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 6 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details" (click)="navigateToCourseDetails()">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+   
+          <!-- Card 3 -->
+          <!-- <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/courses3.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+            <div class="inner-card">
+              <h3>Data Science Certification Course</h3>
+              <div class="review">
+                <div class="review-star">
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                  <i class="ri-star-s-fill"></i>
+                </div>
+                <p>4.7 / 5.0</p>
+              </div>
+              <div class="text-content">
+                <p>13+ AI Tools & Resources</p>
+                <p>100% Job placement Assistance</p>
+              </div>
+            </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div>
+      -->
+         <!-- Card 4 -->
+         <!-- <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/courses7.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Artificial Intelligence(AI) Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>4.9 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>19+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+   
+         <!-- Card 5 -->
+         <!-- <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/courses4.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Data Analytics Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>4.7 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>13+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+     
+         <!-- Card 6 -->
+         <!-- <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/courses6.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Advanced DGCA Drone Pilot Training Program</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>5+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 40+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 7 Days
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+   
+           <!-- Card 7 -->
+           <!-- <div class="course-card" id="addition">
+             <div class="courses-head">
+               <img src="../../assets/images/courses8.png" alt="Certification Course in HR">
+               <div class="text-overlay">
+               </div>
+             </div>
+       
+             <div class="card-content">
+               <div class="inner-card">
+                <h3>Software Testing Certification Course</h3>
+               <div class="review">
+                 <div class="review-star">
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                 </div>
+                 <p>4.9 / 5.0</p>
+               </div>
+               <div class="text-content">
+                 <p>16+ AI Tools & Resources</p>
+                 <p>100% Job placement Assistance</p>
+               </div>
+               </div>
+               <hr class="line">
+               <div class="duration">
+                 <div class="info">
+                   <i class="ri-time-line"></i> 80+ Hours
+                 </div>
+                 <div class="info">
+                   <i class="ri-calendar-line"></i> 3 months
+                 </div>
+               </div>
+               <div class="buttons-course">
+                 <button class="details">DETAILS</button>
+                 <button class="enroll">ENROLL</button>
+               </div>
+             </div>
+           </div> -->
+       
+           <!-- Card 8 -->
+           <!-- <div class="course-card add" id="addition">
+             <div class="courses-head">
+               <img src="../../assets/images/courses10.png" alt="Certification Course in HR">
+               <div class="text-overlay">
+               </div>
+             </div>
+       
+             <div class="card-content">
+               <div class="inner-card">
+                <h3>Full Stack Web Development Certification Course</h3>
+               <div class="review">
+                 <div class="review-star">
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                   <i class="ri-star-s-fill"></i>
+                 </div>
+                 <p>4.8 / 5.0</p>
+               </div>
+               <div class="text-content">
+                 <p>8+ AI Tools & Resources</p>
+                 <p>100% Job placement Assistance</p>
+               </div>
+               </div>
+               <hr class="line">
+               <div class="duration">
+                 <div class="info">
+                   <i class="ri-time-line"></i> 80+ Hours
+                 </div>
+                 <div class="info">
+                   <i class="ri-calendar-line"></i> 3 months
+                 </div>
+               </div>
+               <div class="buttons-course">
+                 <button class="details">DETAILS</button>
+                 <button class="enroll">ENROLL</button>
+               </div>
+             </div>
+           </div> -->
+   
+            <!-- Card 9 -->
+         <!-- <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/courses9.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Cloud Computing Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>16+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+     
+         <!-- Card 10 -->
+         <!-- <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/courses5.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Drone Training Beginner Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>5+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 40 Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 5 Days
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+   
+         <!-- Card 11 -->
+         <!-- <div class="course-card">
+           <div class="courses-head">
+             <img src="../../assets/images/courses11.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Video Editing Certification Course</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>6+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 80+ Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+     
+         <!-- Card 12 -->
+         <!-- <div class="course-card" id="addition">
+           <div class="courses-head">
+             <img src="../../assets/images/courses12.png" alt="Certification Course in HR">
+             <div class="text-overlay">
+             </div>
+           </div>
+     
+           <div class="card-content">
+             <div class="inner-card">
+              <h3>Influencer Mastery Course: From Zero to Influencer</h3>
+             <div class="review">
+               <div class="review-star">
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+                 <i class="ri-star-s-fill"></i>
+               </div>
+               <p>5.0 / 5.0</p>
+             </div>
+             <div class="text-content">
+               <p>6+ AI Tools & Resources</p>
+               <p>100% Job placement Assistance</p>
+             </div>
+             </div>
+             <hr class="line">
+             <div class="duration">
+               <div class="info">
+                 <i class="ri-time-line"></i> 40 Hours
+               </div>
+               <div class="info">
+                 <i class="ri-calendar-line"></i> 3 months
+               </div>
+             </div>
+             <div class="buttons-course">
+               <button class="details">DETAILS</button>
+               <button class="enroll">ENROLL</button>
+             </div>
+           </div>
+         </div> -->
+<!--    
+       </div>
+     </div> -->
+    
+   </div>
+    </div>
+   </ion-content>
+
+  </div>
+
+
+
+

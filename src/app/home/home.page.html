@@ -1,0 +1,694 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playpen Sans|Plus Jakarta Sans">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+<ion-content fullscreen>
+  <div class="fullscreen">
+    <div class="hero-section">
+      <div class="header-icons">
+        <ion-buttons slot="start">
+          <ion-menu-button>
+            <i class="ri-menu-line"></i>
+          </ion-menu-button>
+        </ion-buttons>
+        <i (click)="navigaterToNotification()" class="ri-notification-4-fill" id="icon"></i>
+      </div>
+      <div class="center-content">
+        <div class="header-top-text">
+          <h2>BUILD THE SKILLS<br>TO DRIVE YOUR<br>CAREER</h2>
+        </div>
+        <div class="hero-images">
+          <img src="../../assets/images/hero.png">
+        </div>
+      </div>
+    </div>
+    <div class="section-contenar">
+      <div class="explore-category">
+        <h2>Explore Categories</h2>
+        <div class="slider-component">
+          <swiper-container [slidesPerView]="3" [loop]="true" [modules]="swiperModules" class="mySwiper" [breakpoints]="{
+                '0': {
+            slidesPerView: 3
+          }, 
+            '768': {
+            slidesPerView: 5
+          },
+          '1024': {
+            slidesPerView: 6
+          }
+          }">
+            <swiper-slide class="expo">
+              <div class="course">
+                <img src="../../assets/images/category1.png">
+                <div class="text">
+                  <p> Web Development </p>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="course">
+                <img src="../../assets/images/category2.png">
+                <div class="text">
+                  <p> Data <br> Science</p>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="course">
+                <img src="../../assets/images/category3.png">
+                <div class="text">
+                  <p>Human <br>Resource</p>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="course">
+                <img src="../../assets/images/category4.png">
+                <div class="text">
+                  <p> Web Developmen</p>
+                </div>
+              </div>
+            </swiper-slide>
+             <swiper-slide class="expo">
+              <div class="course">
+                <img src="../../assets/images/category5.png">
+                <div class="text">
+                  <p>Drone <br> Course</p>
+                </div>
+              </div>
+            </swiper-slide>
+             <swiper-slide class="expo">
+              <div class="course">
+                <img src="../../assets/images/category4.png">
+                <div class="text">
+                  <p>Cloud <br>Computing</p>
+                </div>
+              </div>
+            </swiper-slide>
+             <swiper-slide class="expo">
+              <div class="course">
+                <img src="../../assets/images/category6.png">
+                <div class="text">
+                  <p>Digital <br> Marketing</p>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="expo">
+              <div class="course">
+                <img src="../../assets/images/category7.png">
+                <div class="text">
+                  <p>Artificial <br>Intelligence</p>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-contenar">
+      <div class="courses-section">
+        <div class="section-header">
+          <h2>Top Popular Courses</h2>
+          <div class="view" (click)="navigateToCourses()">
+            <a (click)="navigaterToAllCourses()" >View all <i class="ri-arrow-right-s-line"></i></a>
+          </div>
+        </div>
+        <div class="slider-component">
+          <swiper-container [slidesPerView]="1" [spaceBetween]="10" [loop]="true" [modules]="swiperModules"
+            class="mySwiper"  [breakpoints]="{
+          '768': {
+            slidesPerView: 2.5
+          },
+          '1024': {
+            slidesPerView: 3
+          }
+        }">
+            <swiper-slide class="swiper-slide">
+              <div class="course-card">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/1.webp" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Certification Course in (HR)</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.9 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>18+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 80+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 3 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details" (click)="navigationToCourseDetails()">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/2.webp" alt="Certification Course in HR">
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Digital Marketing Certification <br> Course</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.9 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>25+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 120+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 6 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/1.webp" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Certification Course in (HR)</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.9 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>18+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 80+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 3 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/2.webp" alt="Certification Course in HR">
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Digital Marketing Certification <br> Course</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.9 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>25+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 120+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 6 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-contenar">
+      <div class="robo-section">
+        <div class="robo-content">
+          <div class="robo-top-text">
+            <h2>LEARN FROM THE INDUSTRY EXPERTS</h2>
+          </div>
+          <div class="robo-images">
+            <img src="../../assets/images/home-robo.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="courses-section" id="my-new-courses">
+        <div class="section-header" id="section-header-id">
+          <h2>Top IT Courses</h2>
+          <a (click)="navigaterToAllCourses()">View all <i class="ri-arrow-right-s-line"></i></a>
+        </div>
+
+        <div class="slider-component">
+           <swiper-container [slidesPerView]="1" [spaceBetween]="10" [loop]="true" [modules]="swiperModules"
+            class="mySwiper"  [breakpoints]="{
+          '768': {
+            slidesPerView: 2.5
+          },
+          '1024': {
+            slidesPerView: 3
+          }
+        }">
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/DA.png" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Data Analytics Certification <br> Course</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.7 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>13+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 80+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 3 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/4.webp" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Data Science Certification <br> Course</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.7 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>13+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 80+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 3 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/DA.png" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Data Analytics Certification <br> Course</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.7 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>13+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 80+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 3 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/4.webp" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Data Science Certification <br> Course</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>4.7 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>13+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 80+ Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 3 months
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section-contenar">
+      <div class="courses-section new-courses">
+        <div class="section-header">
+          <h2>Top Drone Pilot Training</h2>
+          <a (click)="navigaterToAllCourses()">View all <i class="ri-arrow-right-s-line"></i></a>
+        </div>
+
+        <div class="slider-component">
+          <swiper-container [slidesPerView]="1" [spaceBetween]="10" [loop]="true" [modules]="swiperModules"
+            class="mySwiper"  [breakpoints]="{
+          '768': {
+            slidesPerView: 2.5
+          },
+          '1024': {
+            slidesPerView: 3
+          }
+        }">
+            <swiper-slide class="swiper-slide">
+              <div class="course-card">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/DR1.png" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Drone Training Beginner <br> Certification Program</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>5.0 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>5+ Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 40 Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i>5 Days
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card card-second">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/DR2.png" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Advanced DGCA Drone Pilot <br> Training Program </h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>5.0 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>5+ AI Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 40 Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 7 Days
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/DR1.png" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="inner-card-content">
+                    <h3>Drone Training Beginner <br> Certification Program</h3>
+                    <div class="review">
+                      <div class="review-star">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                      </div>
+                      <p>5.0 / 5.0</p>
+                    </div>
+                    <div class="text-content">
+                      <p>5+ Tools & Resources</p>
+                      <p>100% Job placement Assistance</p>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 40 Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i>5 Days
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide class="swiper-slide">
+              <div class="course-card annesari">
+                <div class="courses-head">
+                  <img src="../../assets/images/home_page_images/DR2.png" alt="Certification Course in HR">
+                  <div class="text-overlay">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h3>Advanced DGCA Drone Pilot <br> Training Program </h3>
+                  <div class="review">
+                    <div class="review-star">
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                      <i class="ri-star-s-fill"></i>
+                    </div>
+                    <p>5.0 / 5.0</p>
+                  </div>
+                  <div class="text-content">
+                    <p>5+ AI Tools & Resources</p>
+                    <p>100% Job placement Assistance</p>
+                  </div>
+                  <hr class="line">
+                  <div class="duration">
+                    <div class="info">
+                      <i class="ri-time-line"></i> 40 Hours
+                    </div>
+                    <div class="info">
+                      <i class="ri-calendar-line"></i> 7 Days
+                    </div>
+                  </div>
+                  <div class="buttons-home">
+                    <button class="details">DETAILS</button>
+                    <button class="enroll">ENROLL</button>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,150 @@
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Montserrat">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <div class="title-container">
+        <span><i class="ri-arrow-left-s-line" id="back-icon" (click)="  navigationToHome()"></i></span>
+        <span>SETTINGS</span>
+        <div class="language-selector">
+          <img src="https://flagcdn.com/w20/in.png" alt="IN Flag" />
+          <span>IN</span>
+        </div>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="fullscreen">
+    <div class="all-content">
+      <div class="profile-pic-section">
+        <div class="avatar-container">
+          <img class="avatar" src="../../assets/images/profile-pic.webp" alt="Avatar" />
+          <span class="badge" ><i class="ri-camera-line"></i></span>
+          <div class="username">username</div>
+        </div>
+      </div>
+      <div class="profile-details-section">
+        <div class="main">
+
+          <div class="section-title">PROFILE</div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-user-line"></i>
+            </div>
+            <div class="item-content" (click)=" navigationToEditPage()">
+              <div class="item-title">Personal Information</div>
+              <div class="item-description">Manage your profile details.</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow" (click)=" navigationToEditPage()"></i>
+          </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-notification-3-line"></i>
+            </div>
+            <div class="item-content">
+              <div class="item-title">Push Notifications</div>
+              <div class="item-description">Customize your push notification settings.</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow"></i>
+          </div>
+
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-book-shelf-line"></i>
+            </div>
+            <div class="item-content" (click)="navigationToCourse()">
+              <div class="item-title">My Courses</div>
+              <div class="item-description">Your Courses here</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow" (click)="navigationToCourse()"></i>
+          </div>
+
+          <div class="section-title">LEGAL</div>
+          <a href="https://talentspiral.com/terms-conditions/" target="_blank"
+            style="text-decoration: none; color: inherit;">
+            <div class="item">
+              <div class="item-icon">
+                <i class="ri-slideshow-line"></i>
+              </div>
+              <div class="item-content">
+                <div class="item-title">Term Of Service</div>
+                <div class="item-description">Review Our Terms of Service</div>
+              </div>
+              <i class="ri-arrow-right-s-line item-arrow"></i>
+            </div>
+          </a>
+
+
+          <a href="https://talentspiral.com/privacy-policy/" target="_blank"
+            style="text-decoration: none; color: inherit;">
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-eye-line"></i>
+            </div>
+            <div class="item-content">
+              <div class="item-title">Privacy Plicy</div>
+              <div class="item-description">Learn About Our Privacy Policy</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow"></i>
+          </div>
+</a>
+
+          <div class="section-title">SUPPORT</div>
+
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-currency-fill"></i>
+            </div>
+            <div class="item-content">
+              <div class="item-title">Payment Option</div>
+              <div class="item-description">Securely manage your payments and billing details here</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow"></i>
+          </div>
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-group-fill"></i>
+            </div>
+            <div class="item-content">
+              <div class="item-title">Invite a Friend</div>
+              <div class="item-description">Earn extra call by inviting your friends.</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow"></i>
+          </div>
+
+          <div class="item">
+            <div class="item-icon">
+              <i class="ri-eraser-line"></i>
+            </div>
+            <div class="item-content">
+              <div class="item-title">Delete Account</div>
+              <div class="item-description">Erase your account</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow"></i>
+          </div>
+
+           <div class="item add">
+            <div class="item-icon">
+              <i class="ri-logout-box-r-line"></i>
+            </div>
+            <div class="item-content" (click)="navigationToLogout() ">
+              <div class="item-title">Logout</div>
+              <div class="item-description">Ready to log out?</div>
+            </div>
+            <i class="ri-arrow-right-s-line item-arrow" (click)="navigationToLogout()"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</ion-content>

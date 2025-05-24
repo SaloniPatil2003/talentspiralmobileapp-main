@@ -1,0 +1,324 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/**
+ * Ionic Dark Mode
+ * -----------------------------------------------------
+ * For more info, please see:
+ * https://ionicframework.com/docs/theming/dark-mode
+ */
+
+/* @import "@ionic/angular/css/palettes/dark.always.css"; */
+/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+@import "@ionic/angular/css/palettes/dark.system.css";
+
+
+ion-menu {
+    --width: 250px; /* Adjust width of the side menu */
+  }
+  
+  /* Header Section with Gradient Background */
+  .menu-header {
+    height: 150px;
+    width: 100%;
+   background-image: url('./assets/images/13.png');
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  
+  :root {
+  --tab-bar-background: #3d33ab;
+  --tab-bar-text-color: #ffffff;
+  --tab-bar-selected-indicator: #ffffff;
+}
+
+/* Ensure same colors in both light and dark modes */
+@media (prefers-color-scheme: light), (prefers-color-scheme: dark) {
+  :root {
+    --tab-bar-background: #3d33ab;
+    --tab-bar-text-color: #ffffff;
+    --tab-bar-selected-indicator: #ffffff;
+  }
+  ion-tab-bar {
+    --background: var(--tab-bar-background) !important;
+    --color: var(--tab-bar-text-color) !important;
+    --color-selected: var(--tab-bar-text-color) !important;
+  }
+  ion-tab-button {
+    --color: var(--tab-bar-text-color) !important;
+    --color-selected: var(--tab-bar-text-color) !important;
+  }
+  ion-icon, ion-label {
+    color: var(--tab-bar-text-color) !important;
+  }
+}
+
+  .box{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: #FFFFFF;
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-left: -170px;
+    }
+
+    .box i {
+  position: absolute; /* Required for transform centering */
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #3d33ab;
+}
+
+.box h6{
+  color: #FFFFFF;
+  margin-left: 70px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.bottom-header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #361c91;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.bottom-icon{
+  font-size: 25px;
+  color: #FFFFFF;
+ 
+}
+.bottom-info{
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+  
+  /* User Info (Icon and Username) */
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-icon {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .username {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 10%;
+    color: white;
+    margin: 0;
+  }
+  
+  /* Menu Items */
+  .menu-items {
+    background-color: #EEEDFF; /* Light gray background */
+    padding: 0;
+  }
+  
+  ion-item {
+    --background: transparent;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  .said-bar-button{
+    background: transparent;
+    color: #000000;
+    border-bottom: 1px solid #BCBCBC;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    padding: 15px 70px 15px 10px;
+  }
+  #test{
+    padding: 15px 210px 15px 10px;
+  }
+
+  #about{
+    padding: 15px 170px 15px 10px;
+  }
+  #blog{
+    padding: 15px 200px 15px 10px;
+  }
+  #setting{
+    padding: 15px 180px 15px 10px;
+  }
+
+  .said-bar-button:hover {
+    background-color: #E9D4FF;
+    cursor: pointer;
+    border-bottom: none;
+    box-shadow: 10px 4px 8px 0px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .buttons{
+    background: transparent;
+    color: #333;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px 200px 15px 20px;
+  }
+
+  .buttons-one{
+    background: transparent;
+    color: #333;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px 160px 15px 20px; 
+  }
+  
+  
+  /* Settings Item with Light Purple Background */
+  .settings-item {
+    --background: #EEEDFF; /* Light purple background */
+  }
+  
+  /* Logout Button */
+  .logout-section {
+    padding: 20px;
+    position: absolute;
+    bottom: 60px; /* Adjust based on video button height */
+    width: 100%;
+  }
+  
+  .logout-button {
+    --background: #1e3a8a; /* Dark blue */
+    --color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    --border-radius: 8px;
+  }
+  
+  /* Video Button */
+  .video-button-section {
+    padding: 0 20px 20px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .video-button {
+    --background: #6a00ff; /* Purple */
+    --color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    --border-radius: 8px;
+  }
+  
+  /* Ensure content background matches */
+  ion-content {
+    --background: #EEEDFF;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #BCBCBC;
+    width: 100vw;
+    margin-top: -1px;
+  }
+
+  .button-two{
+    background: transparent;
+    color: #333;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px 50px 15px 20px;
+  }
+
+  ion-accordion ion-item::part(indicator) {
+  display: none !important;
+}
+
+@media (min-width:320px){
+  .said-bar-button{
+    padding: 15px 83px 15px 10px;
+  }
+  #test{
+    padding: 15px 260px 15px 10px;
+  }
+
+  #about{
+    padding: 15px 183.9px 15px 10px;
+  }
+  #blog{
+    padding: 15px 250px 15px 10px;
+  }
+  #setting{
+    padding: 15px 220px 15px 10px;
+  }
+}
+
+@media (min-width:341px) {
+  .said-bar-button{
+    padding: 15px 70px 15px 10px;
+  }
+  #about{
+    padding: 15px 170px 15px 10px;
+  }
+}
+
+@media (min-width:425px){
+  .said-bar-button{
+    padding: 15px 70px 15px 10px;
+  }
+  #about{
+    padding: 15px 170.5px 15px 10px;
+  }
+}

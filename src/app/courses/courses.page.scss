@@ -1,0 +1,352 @@
+.fullscreen {
+  // min-height: 100vh;
+  height: auto;
+  background-color: #eeedff;
+}
+
+.head-section{
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+}
+
+.header-icons {
+    height: 30px;
+    // width: 90%;
+    position: absolute;
+    top: 20px;
+    left:3px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color:white
+  }
+
+  .all-courses{
+    font-size: 16px;
+    background-color: #eeedff;
+  }
+  .header-icons i{
+    color: white;
+  }
+  .expolre-heading{
+    word-spacing: 3px;
+     text-transform: uppercase;
+  }
+
+ .all-courses p{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 0 20px;
+    margin-top: 0px;
+    font-weight: bold; 
+    margin: 20px 0px;
+    color: black;
+  }
+
+  
+
+  .courses-section {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 10px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .section-header h2 {
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 10%;
+    color: #000000;
+    margin: 0;
+  }
+  
+  .section-header a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  
+  .courses-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-evenly; 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    // padding: 0 20px; 
+    box-sizing: border-box;
+    
+  }
+  
+  .courses-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .course-card {
+    // max-width: 218px;
+    // height: 244px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .courses-head {
+    position: relative;
+  }
+  
+  .courses-head img {
+    width: 100%;
+    // height: 90px;
+    object-fit: cover;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 35px;
+    left: 6px;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .text-overlay p {
+    color: #fff;
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  .card-content {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .card-content h3 {
+    font-size: 13px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    height: 26px;
+    margin-left: -4px;
+    margin-top: -5px;
+    font-family: 'Plus Jakarta Sans';
+  }
+  
+  .review {
+    display: flex;
+    align-items: center;
+    gap: -5px;
+    margin-top: -4px;
+    font-size: 11px;
+
+  }
+  
+  .review-star {
+    font-size: 12px;
+    color: gold;
+  }
+  
+  .review p {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans';
+  }
+  
+  .text-content p {
+    margin-top: -5px;
+    margin-left: -20px;
+    font-size: 9px;
+    line-height:12px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .duration {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #777;
+    width: 90%;
+    margin: 0 5%;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-family: 'Plus Jakarta Sans';
+  }
+  
+  .buttons-course {
+    display: flex;
+    gap: 4px;
+    margin-top: 6px;
+  }
+  
+  .details, .enroll {
+    flex: 1;
+    background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans';
+  }
+
+
+  
+  .details:hover, .enroll:hover {
+    opacity: 0.8;
+  }
+  .line {
+    border: none;
+    height: 1px;
+    background-color: rgb(68, 67, 67);
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  .inner-card{
+    width: 90%;
+    margin: 0 5%;
+  }
+ 
+  
+  .robo-section {
+    margin-top: -60px;
+    width: 100vw;
+    height: 333.22px;
+    background: url('../../assets/images/home2.png') no-repeat center center/cover;
+    position: relative;
+    color: white;
+  }
+  
+  .header-icons i{
+    color: white;
+  }
+  
+  .robo-top-text{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .robo-top-text h2{
+    font-size: 18px;
+    margin-left: 50%;
+  }
+  
+  .robo-content {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .center-content h2{
+    font-family: "Playpen Sans"
+  }
+  
+  .hero-images {
+    position:absolute;
+    // margin-top: -60px;
+  }
+  
+
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    .fullscreen{
+    height: 1930px;
+}
+    .course-card {
+      max-width: 100%;
+      background-color: white;
+    }
+  
+  
+    .courses-head img {
+      width: 100%;
+      height: 181px;
+      object-fit: cover;
+    }
+
+    .text-content p{
+      margin-left: -20px;
+      font-size: 11px;
+      line-height:12px;
+      margin-top: 6px;
+    }
+     .review{
+      margin-top: 5px;
+    }
+  }
+
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    .fullscreen{
+      height: 1840px;
+    }
+    
+    .text-content p{
+      margin-left: -20px;
+      font-size: 11px;
+      line-height:12px;
+      margin-top: 6px;
+    }
+    .review{
+      margin-top: 5px;
+    }
+    // .course-card {
+    //   max-width: 80%;
+    // }
+    .courses-head img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width:768px){
+     .fullscreen{
+      height: 1840px;
+    }
+     .all-courses p{
+      padding: none;
+    }
+    .text-content p {
+      padding: 3px 0;
+    }
+    .review{
+      margin-top: 5px;
+    }
+  }
+  
+  @media (min-width:1024px){
+    .fullscreen{
+      height: 2050px;
+    }
+  }

@@ -1,0 +1,198 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.top-part {
+  height: 60%;
+  background-color: #FFFFFF;
+}
+
+
+.bottom-part {
+  height: 40%;
+  flex: 1;
+  background-color: #393185;
+  padding: 20px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  margin-top: -30px; /* pull up the bottom-part */
+  z-index: 1;
+  position: relative;
+  margin-top: -100px;
+}
+
+
+
+.signin-content {
+  --background: #2c2375;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.input-wrapper {
+  position: relative;
+  // margin-top: 20px;
+}
+
+#input-wrapper-extra{
+  margin-top: 30px;
+}
+
+.custom-input {
+  border-radius: 40px;
+  background:  white;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 0 10px;
+  margin: 10px 0;
+  --highlight-color-focused: transparent; 
+  --inner-padding-end: 10px;
+}
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #3a257a;
+  font-size: 20px;
+  z-index: 2;
+}
+.ion-margin-top {
+  margin-top: 90px;
+  --background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+  --color: white;               
+  border-radius: 40px;
+  font-weight: bold;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+justify-content: space-between;
+font-family: 'Montserrat';
+}
+
+#Password{
+  display: flex;
+  justify-content: right;
+}
+
+#Password a{
+   font-family:'Roboto';
+   color: #71C3EB;
+   margin-top: -2px;
+}
+
+i{
+  margin-left: 10px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;   
+  height: 100px;    
+}
+
+#Register {
+  text-decoration: none;
+  color: #dadada;
+  font-size: 16px;
+  font-family:'Roboto';
+}
+
+.upper-part{
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+
+.custom-input {
+  width: 100%;
+  padding: 12px 12px 12px 45px; /* left padding to make space for icon */
+  border-radius: 40px;
+  background: #fffdfd;
+  border: none;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto';
+}
+.input-section{
+  font-family: 'Roboto';
+}
+
+.signup-title{
+  color: white;
+}
+#back-icon {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 20px; 
+  display: block; 
+}
+img{
+  width: 180px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+}
+form{
+  margin-top: -20px;
+}
+
+.text-area {
+  margin-left: 80px;
+ 
+
+  .signup-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .signup-subtitle {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #040404;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 390px) {
+  .password a{
+    margin-right: -100px;
+  }
+}
+
+@media (min-width: 768px){
+  img{
+      margin-top: 10%;
+}
+}
+
+@media (min-height:1366px) {
+      img[_ngcontent-ng-c3825535613] {
+    width: 301px;
+    height: 296px;
+      }
+      img{
+        margin-top: 21%;
+      }
+      .card-content-ios {
+    padding-inline-start: 20px;
+   
+    padding-inline-end: 20px;
+    padding-top: 152px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+      }
+}
+
+
+.all-input{
+  margin-top: 15px;
+}
+

@@ -1,0 +1,7 @@
+{
+  "name": "talent_spiral",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

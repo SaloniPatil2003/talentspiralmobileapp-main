@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playpen Sans|Plus Jakarta Sans">
+
+<ion-app>
+  <ion-menu contentId="main-content" type="overlay">
+    <ion-content>
+      <!-- Header Section with Background and User Info -->
+      <div class="menu-header">
+        <div class="box">
+          <i class="ri-user-fill"></i>
+          <h6>USERNAME</h6>
+        </div>
+      </div>
+
+      <!-- Menu Items -->
+      <ion-list class="menu-items">
+        <ion-menu-toggle>
+          <button class="said-bar-button" (click)="navigateToTraningCertificationPage()">Training & Certification</button>
+          <!-- <hr> -->
+          <button class="said-bar-button" (click)="navigateToInternship()">IT Training Internship & Certifications</button>
+          <!-- <hr> -->
+          <button class="said-bar-button" (click)="navigateToTest()" id="test">Test</button>
+          <!-- <hr> -->
+          <button class="said-bar-button" (click)="navigateToAbout()" id="about">About Us</button>
+          <!-- <hr> -->
+          <button class="said-bar-button" (click)="navigateToBlogs()" id="blog">Blogs</button>
+          <!-- <hr> -->
+          <button class="said-bar-button" (click)="navigateToProfile()" id="setting">Settings</button>
+          <!-- <hr> -->
+        </ion-menu-toggle>
+      </ion-list>
+
+      <div class="bottom-header">
+        <div class="bottom-info" (click)="navigateToRegister()">
+          <h3 class="username">LOGOUT</h3>
+          <ion-icon name="log-out-outline"  class="bottom-icon"></ion-icon>
+        </div>
+      </div>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+</ion-app>

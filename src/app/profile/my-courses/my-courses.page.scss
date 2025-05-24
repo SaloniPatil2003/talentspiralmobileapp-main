@@ -1,0 +1,294 @@
+.fullscreen{
+    background-color:#eeedff;
+  }
+  
+  nav{
+      height: 80px;
+      width: 100%;
+      background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+      display: flex;
+      align-items: center;
+  }
+  
+  nav i{
+      color: white;
+      font-size: 30px;
+      margin-left: 30px;
+  }
+  
+  h6{
+    margin: 20px 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px; /* Adds spacing between buttons */
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px 0;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: black;
+  }
+  
+#button{
+  background: linear-gradient(to right, #3858ef, #a163e9); 
+  color: white;
+}
+
+.courses-section {
+  width: 100%;
+  padding: 15px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin-top: 10px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-header h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.section-header a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: space-evenly; 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; 
+  box-sizing: border-box;
+  
+}
+
+.courses-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.course-card {
+  max-width: 250px;
+  // height: 190px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-head {
+  position: relative;
+}
+
+.courses-head img {
+  width: 100%;
+  height: 146px;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 35px;
+  left: 6px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+// #new-details{
+//   height: 180px;
+// }
+
+.text-overlay p {
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+}
+
+.card-content {
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-content h3 {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+  font-weight: bold;
+  /* Remove height and overflow */
+  margin-left: -4px;
+  margin-top: -5px;
+  line-height: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: -5px;
+  margin-top: -4px;
+  
+}
+
+.review-star {
+  font-size: 12px;
+  color: gold;
+}
+
+.review p {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-content p {
+  margin-top: -5px;
+  margin-left: -20px;
+  font-size: 9px;
+  line-height:12px;
+  color: #666;
+  // margin: 0;
+}
+
+.duration {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #777;
+  width: 90%;
+  margin: 2px 5%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0%;
+}
+.content-heading{
+  width: 90%;
+  margin: 2px 5%;
+}
+
+.buttons-course {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.details{
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  // line-height: 20%;
+  letter-spacing: 0%;
+  flex: 1;
+  background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.details:hover{
+  opacity: 0.8;
+}
+.line {
+  border: none;
+  height: 1px;
+  background-color: #B8B8B8;
+  margin: 3px 0 0px -20px;
+}
+.header-icons i{
+  color: white;
+}
+
+.robo-top-text{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.robo-top-text h2{
+  font-size: 18px;
+  margin-left: 50%;
+}
+
+.robo-content {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.center-content h2{
+  font-family: "Playpen Sans"
+}
+
+.hero-images {
+  position:absolute;
+  margin-top: -60px;
+}
+
+@media (min-width:320px){
+  .fullscreen{
+    height: 1400px;
+  }
+  .courses-container{
+    padding: 0;
+  }
+  .course-card{
+    max-width: 290px;
+  }
+  .courses-head img{
+    height: 166px;
+}
+}
+
+@media (min-width:768px){
+ .fullscreen{
+    height: 770px;
+  }
+}

@@ -1,0 +1,228 @@
+.fullscreen {
+      background-color: #eeedff;
+      min-height: 100vh;
+    }
+
+    ion-header {
+      --background: #FFFFFF;
+      --color: #161616;
+    }
+
+    ion-toolbar {
+      --background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+      color: #f7f7f7;
+      --border-width: 0;
+      --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    ion-content {
+      --background: #eeedff;
+      --padding-top: 56px; /* Ensure content starts below the header */
+      --offset-top: 56px; /* Match padding for consistency */
+    }
+
+    .title-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 15px;
+    }
+
+    .div{
+      height: 200px;
+      width: 100%;
+      background-color: red;
+    }
+    .title-container span {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #fbf7f7;
+    }
+
+    #back-icon {
+      font-size: 20px;
+      color: #ffffff;
+      cursor: pointer;
+      box-shadow: none !important;
+      --box-shadow: none !important;
+      --border-width: 0 !important;
+    }
+
+    .language-selector {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      color: #161616;
+    }
+
+    .language-selector img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .all-content {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-pic-section {
+      background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+     border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+      position: relative;
+
+    }
+
+    .profile-details-section {
+      background: white;
+      border-bottom-left-radius: 20px;
+      padding: 20px;
+      flex: 1;
+      width: 100%;
+      position: absolute;
+      border-radius: 30px;
+      margin-top: 36%;
+    }
+
+    .avatar-container {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .main{
+      padding: 20px;
+    }
+
+    .avatar {
+      width: 124px;
+      height: 124px;
+      border-radius: 30px;
+      margin-top: -83px;
+      object-fit: cover;
+      border: 2px solid #FFFFFF;
+    }
+
+    .badge {
+      position: absolute;
+      top: 5px;
+      left: 97px;
+      background: #FFFFFF;
+      color: #161616;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 34px;
+      padding: 2px 6px;
+      border-radius: 50px;
+      border: 1px solid #E0E0E0;
+    }
+
+    .username {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fefcfc;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #000000;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .item-icon {
+      width: 40px;
+      height: 40px;
+      background: #E6F0FF;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+    }
+
+    .item-icon i {
+      color: #3d33ab;
+      font-size: 20px;
+    }
+
+    .item-content {
+      flex: 1;
+    }
+
+    .item-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: #161616;
+    }
+
+    .item-description {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      color: #A0A0A0;
+      margin-top: 2px;
+      word-wrap: break-word;
+    }
+
+    .item-arrow {
+      color: #A0A0A0;
+      font-size: 20px;
+    }
+
+    .add{
+      margin-bottom: 10%;
+    }
+
+    @media screen and (min-width:320px) and (max-width:450px) {
+      .add{
+        margin-bottom:15%;
+      }
+    }
+
+    @media (min-width:768px) {
+      .fullscreen{
+        overflow: hidden;
+      }
+      .profile-details-section{
+            margin-top: 20%;
+      }
+      // .add{
+      //   margin-bottom: 10%;
+      // }
+      .all-content{
+        margin-top: 50px;
+      }
+      
+    .main{
+      margin-top: -20px;
+    }
+    .avatar{
+      margin-top: -85px;
+    }
+    }
+    @media (min-width:1024px) {
+     .profile-details-section{
+            margin-top: 14%;
+      }
+      
+    }

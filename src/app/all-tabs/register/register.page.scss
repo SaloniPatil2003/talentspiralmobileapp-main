@@ -1,0 +1,139 @@
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .top-part {
+      height: 30%;
+      background-color: #393185;
+    }
+
+    .bottom-part {
+      flex: 1;
+      background-color: #FFFFFF;
+      padding: 70px 20px;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+      margin-top: -30px;
+      z-index: 1;
+      position: relative;
+    }
+
+    .signup-head {
+      margin-left: 49px;
+    }
+
+    .text-area {
+      margin-top: 40px;
+    }
+
+    .signup-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+
+    #back-icon {
+      font-size: 24px;
+      color: white;
+      margin-left: 20px;
+      margin-top: 20px;
+      display: block;
+    }
+
+    .info {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .my-new-button {
+      width: 100%;
+      padding: 10px 10px 10px 40px;
+      background-color: #f2ebeb;
+      border: none;
+      border-radius: 30px;
+      box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: #666;
+      height: 44px; /* Fixed height for consistency */
+      box-sizing: border-box;
+    }
+
+    .my-new-button:focus {
+      outline: none;
+    }
+
+    .info i {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #393185;
+      font-size: 20px;
+    }
+
+    .new-section{
+        height: 100px;
+    }
+
+    .custom-select {
+      width: 100%;
+      background-color: #f2ebeb;
+      border-radius: 30px;
+      box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: #666;
+      --placeholder-color: #666;
+      --placeholder-opacity: 1;
+      height: 44px; /* Match the height of input */
+      padding: 0 10px 0 40px; /* Match padding of input */
+      box-sizing: border-box;
+    }
+
+    .custom-select ion-select {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+    }
+
+    .ion-margin-top {
+      margin-top: 30px;
+      --background: linear-gradient(to right, #3858ef, #3858ef, #5d5cec, #805fea, #a163e9);
+      --color: white;
+      border-radius: 40px;
+      font-weight: bold;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (min-width: 375px) {
+      .my-new-button, .custom-select {
+        width: 81vw;
+      }
+    }
+
+    @media (min-width: 425px) {
+      .my-new-button, .custom-select {
+        width: 84vw;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .my-new-button, .custom-select {
+        width: 91vw;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .my-new-button, .custom-select {
+        width: 93vw;
+      }
+    }

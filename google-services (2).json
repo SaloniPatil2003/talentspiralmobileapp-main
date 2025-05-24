@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797344493740",
+    "project_id": "talentspiral-36bec",
+    "storage_bucket": "talentspiral-36bec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797344493740:android:cc4dfa0bd6d6ee41b46f09",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8abTDuyORMlm7IIllaRhhhxS3wugPvkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,237 @@
+.fullscreen{
+    background-color:#eeedff;
+  }
+  
+  nav{
+      height: 80px;
+      width: 100%;
+      background: linear-gradient(to right, #3858ef,#3858ef, #5d5cec, #805fea, #a163e9); 
+      display: flex;
+      align-items: center;
+  }
+  
+  nav i{
+      color: white;
+      font-size: 30px;
+      margin-left: 30px;
+  }
+  
+  h6{
+    text-transform: uppercase;
+  word-spacing: 3px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600px;
+    font-size:16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 20px 30px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    gap: 10px; 
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    line-height: 100%;
+    font-size: 12px;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+#button{
+  background: linear-gradient(to right, #3858ef, #a163e9); 
+}
+
+.all-courses{
+  width: 100%;
+max-width: 100%;
+}
+.header-icons i{
+  color: white;
+}
+
+p{
+  font-family: 'Plus Jakarta Sans';
+  width: 500;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 10%;
+  padding: 20px;
+  margin-top: 0px;
+  font-weight: bold;
+  
+}
+
+.contain1 {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: space-evenly; 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  // padding: 0 20px; 
+  box-sizing: border-box;
+}
+
+.service {
+  width: calc(50% - 10px); 
+  min-width: 250px;
+  height: 120px; 
+  border-radius: 10px;
+  background: linear-gradient(to right, #3858ef, #3858ef, #5d5cec, #805fea, #a163e9);
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+.service img {
+  height: 100px;
+  width: 158px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
+.content {
+  flex: 1; 
+  margin: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.content h3 {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 12px; 
+  font-weight: 400;
+  color: white;
+  margin: 0 0 5px 0;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+
+
+.content h6{
+  width: 103px;
+  height: 10px;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 30px;
+  margin-left: -1px;
+  line-height: 100%;
+  color: #c2c1c1;
+  font-weight: bold;
+  text-transform:capitalize;
+}
+
+.read-all{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+
+}
+
+.content p {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 12px;
+  color: #c2c1c1;
+  margin: 0;
+  line-height: 1.4; 
+}
+.content i{
+  margin-left: -20px;
+  color: #c2c1c1;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 4px;
+}
+
+.all-services {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.all-courses {
+  width: 100%;
+  background-color: #eeedff;
+}
+
+// ion-content {
+//   --padding-start: 0;
+//   --padding-end: 0;
+//   --padding-top: 0;
+//   --padding-bottom: 0;
+//   width: 100%;
+// }
+
+@media screen and (min-width:320px) and (max-width: 407px){
+  .fullscreen{
+    height: 1640px;
+  }
+  .read-all{
+    margin-top: -20px;
+  }
+  .service{
+    height: 94px;
+  }
+  .contain1{
+    gap: 10px;
+  }
+  .service img{
+    height: 75px;
+    width: 129px;
+  }
+  
+  .content h6{
+    height: 0px;
+  }
+}
+
+@media (min-width: 425px) {
+  .fullscreen{
+    height: 2060px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service {
+    width: calc(100% - 10px); 
+  }
+}
+
+@media (min-width: 1200px) {
+  .service {
+    width: calc(33.33% - 13.33px); 
+  }
+}
+@media (min-width:1024px){
+  .fullscreen{
+    height: 1250px;
+  } 
+}
+
+

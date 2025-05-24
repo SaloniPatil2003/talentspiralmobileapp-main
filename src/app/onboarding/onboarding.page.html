@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Montserrat|Plus Jakarta Sans|Roboto|Plus Jakarta Sans">
+<ion-content [fullscreen]="true">
+  <div class="skip-button">
+    <button (click)="navigateToTargetPage()" class="my-custom-button">SKIP</button>
+  </div>
+    <swiper-container
+     #swiperEx
+     (slideChange)="swiperSlideChanged()" 
+     [allowSlidePrev]="false" 
+     [pagination]="{clickable:true}"
+    >
+      <swiper-slide>
+        <div class="image-changes">
+          <img src="../../assets/images/welcome1.png">
+        </div>
+        <div class="text-content">
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt laboriosam neque.</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="image-changes">
+          <img src="../../assets/images/welcome2.png">
+        </div>
+        <div class="text-content">
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt laboriosam neque.</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="image-changes">
+          <img src="../../assets/images/welcome3.png">
+        </div>
+        <div class="text-content">
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt laboriosam neque.</p>
+        </div>
+      </swiper-slide>
+
+    </swiper-container>
+
+    <div *ngIf="start != 2; else elseBlock" class="new">
+      <button (click)="goNext()" expand="block" class="continue-button">CONTINUE</button>
+      <!-- <button  (click)="skip()"expand="block" fill="clear" class="go-skip-button"></button> -->
+    </div>
+    <ng-template #elseBlock >
+      <!-- Get Started Button -->
+       <div class="new">
+        <button expand="block" class="get-started-button" (click)="navigateToTargetPage()">CONTINUE</button>
+       </div>
+    </ng-template>
+</ion-content>  

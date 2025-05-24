@@ -1,0 +1,73 @@
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Montserrat">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<ion-content fullscreen>
+  <div class="fullscreen">
+    <div class="head-section">
+      <div class="header-icons">
+        <i class="ri-arrow-drop-left-line"></i>
+        <h6>SETTINGS</h6>
+      </div> 
+
+      <div class="user">
+        <i class="ri-user-fill"></i>
+      </div>
+    </div>
+    <div class="user-top">
+      <div class="user-details">
+        <div class="info" (click)="navigationToEditPage() ">
+          <div class="div">
+            <i class="ri-user-fill" id="icon"></i>
+            <h3>Edit Profile</h3>
+          </div>
+          <ion-icon name="chevron-forward-outline" id="icon"></ion-icon>
+        </div>
+  
+        <div class="info" (click)="navigationToCourse() ">
+          <div class="div">
+            <i class="ri-bank-card-line" id="icon"></i>
+            <h3>My Courses</h3>
+          </div>
+          <ion-icon name="chevron-forward-outline" id="icon"></ion-icon>
+        </div>
+  
+        <div class="info" (click)="navigationToPayment()">
+          <div class="div">
+            <i class="ri-currency-line" id="icon"></i>
+            <h3>Payment Option</h3>
+          </div>
+          <ion-icon name="chevron-forward-outline" id="icon"></ion-icon>
+        </div>
+  
+        <div class="info" (click)="navigationToTerm()">
+          <div class="div">
+            <i class="ri-sticky-note-line" id="icon"></i>
+            <h3>Terms & Conditions</h3>
+          </div>
+          <ion-icon name="chevron-forward-outline" id="icon"></ion-icon>
+        </div>
+  
+        <div class="info" (click)="navigationToPrivacy() ">
+          <div class="div">
+            <i class="fas fa-shield-alt" id="icon"></i>
+            <h3>Privacy Policy</h3>
+          </div>
+          <ion-icon name="chevron-forward-outline" id="icon"></ion-icon>
+        </div>
+  
+        <div class="info" (click)="navigationToLogout()">
+          <div class="div">
+            <i class="ri-logout-box-r-line" id="icon"></i>
+            <h3>Logout</h3>
+          </div>
+          <ion-icon name="chevron-forward-outline" id="icon"></ion-icon>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</ion-content>
