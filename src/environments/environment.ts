@@ -1,25 +1,21 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-export const environment = {
-  production: false,
-  firebase: {
-    apiKey: 'your-api-key',
-    authDomain: 'your-project-id.firebaseapp.com',
-    projectId: 'your-project-id',
-    storageBucket: 'your-project-id.appspot.com',
-    messagingSenderId: 'your-messaging-sender-id',
-    appId: 'your-app-id',
-    measurementId: 'your-measurement-id'
-  }
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDxGyctG5_MuavR1T9q8YvqfH1R9wV7OWo",
+  authDomain: "talentspiral-36bec.firebaseapp.com",
+  projectId: "talentspiral-36bec",
+  storageBucket: "talentspiral-36bec.firebasestorage.app",
+  messagingSenderId: "797344493740",
+  appId: "1:797344493740:web:7ea60ea6163d890db46f09",
+  measurementId: "G-SQ0PM8NXQ6"
 };
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

@@ -49,6 +49,7 @@
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   padding: 0 10px;
   margin: 10px 0;
+  color:#040404 !important;
   --highlight-color-focused: transparent; 
   --inner-padding-end: 10px;
 }
@@ -57,7 +58,9 @@
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
-  color: #3a257a;
+  color: #3a257a !important;
+  // color: red;/
+  fill: #040404;
   font-size: 20px;
   z-index: 2;
 }
@@ -72,6 +75,8 @@
 justify-content: space-between;
 font-family: 'Montserrat';
 }
+
+
 
 #Password{
   display: flex;
